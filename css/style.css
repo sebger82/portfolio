@@ -1,0 +1,159 @@
+/* ============================================================
+PRIMARY STRUCTURE
+============================================================ */
+body {
+    min-height: 100vh;
+    min-width: 320px;
+    overflow: hidden;
+    content: '';
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    background-image: linear-gradient(220deg, #4CA191 20%, #B5967F 80%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    animation: fadein 2s;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    background-color: rgba(15,15,20, 0.9);
+}
+
+#content {
+    width: 100%;
+    padding: 2.5rem;
+}
+
+h1 {
+    margin-top: 0;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+    animation: fadein 3s;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    border: 0;
+    width: 5%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 1px;
+    animation: fadein 3.5s;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    line-height: 1.5rem;;
+    font-weight: 400;
+    text-align: center;
+    animation: fadein 4s;
+}
+
+.gallery {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    animation: fadein 5s;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery ul li {
+    margin: 1rem;
+    pointer-events: all;
+    transition: ease 1s;
+}
+
+.thumbnail img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 6rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+/* ============================================================
+TRANSITIONS & ANIMATIONS FOR THUMBNAILS 
+============================================================ */
+.gallery ul:hover > li {
+    opacity: 0.5;
+}
+
+.gallery ul:hover > li:hover {
+    opacity: 1;
+}
+
+/* ============================================================
+SOCIAL SECTION
+============================================================ */
+#links {
+    pointer-events:all;
+    display: flex;
+    justify-content: center;
+    animation: fadein 5s;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#links li {
+    font-size: 2.1rem;
+    color: rgba(255, 255, 255, 0.6);
+    width: auto;
+    padding: 1rem;
+    transition: ease 1s;
+}
+
+#links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ============================================================
+TRANSITIONS & ANIMATIONS FOR SOCIAL SECTION
+============================================================ */
+.social:hover > li {
+    opacity: 0.5;
+}
+
+.social:hover > li:hover {
+    opacity: 1;
+}
+
+/* ============================================================
+KEYFRAMES
+============================================================ */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* ============================================================
+THE END
+============================================================ */
