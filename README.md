@@ -9,3 +9,7 @@ Funkcjnalność i użyte technologie:
 5. Minimalna szerokość określona na 320px, wczytuje się na urządzeniach mobilnych
 6. Strona napisana z użyciem flexa dla dobrej skalowalności
 7. Ogólnie: czysta prosta, schludna, elegancka, szybka
+
+Stronę można obejrzeć pod adresem http://www.seb.wf
+
+Zapraszam. :) 
