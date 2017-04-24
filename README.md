@@ -10,6 +10,6 @@ Funkcjnalność i użyte technologie:
 6. Strona napisana z użyciem flexa dla dobrej skalowalności
 7. Ogólnie: czysta prosta, schludna, elegancka, szybka
 
-Stronę można obejrzeć pod adresem http://www.seb.wf
+Stronę można obejrzeć pod adresem https://www.seb.wf
 
 Zapraszam. :) 
